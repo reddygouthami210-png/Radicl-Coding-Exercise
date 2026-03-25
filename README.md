@@ -50,7 +50,6 @@ For syslog (CEF), fields like `src`, `suser`, and `outcome` are extracted from t
 ## Project Structure
 
 ```
-log-normalizer/
 ├── app/
 │   ├── server.py         # TCP server handling connections and input
 │   ├── normalizer.py     # parsing and schema mapping logic
